@@ -1,23 +1,24 @@
-/* Emergent.sh Exact Color Palette */
+/* Emergent.sh Exact Black & White Color Palette */
 :root {
-  /* Emergent.sh Dark Theme Colors */
-  --bg-primary: #0a0e1a;           /* Deep dark blue background */
-  --bg-secondary: #141b2e;         /* Secondary dark blue */
-  --bg-tertiary: #1e2746;          /* Tertiary blue for cards */
-  --bg-chat: #0f1419;              /* Chat area background */
+  /* Emergent.sh Black & White Theme Colors */
+  --bg-primary: #000000;           /* Pure black background */
+  --bg-secondary: #111111;         /* Dark gray secondary */
+  --bg-tertiary: #1a1a1a;          /* Light black for cards */
+  --bg-chat: #0a0a0a;              /* Chat area background */
+  --bg-input: #1f1f1f;             /* Input backgrounds */
   --text-primary: #ffffff;         /* Pure white text */
-  --text-secondary: #94a3b8;       /* Light blue-gray */
-  --text-muted: #64748b;           /* Muted blue-gray */
-  --border-color: #334155;         /* Blue-gray border */
-  --accent-primary: #3b82f6;       /* Bright blue accent */
-  --accent-secondary: #8b5cf6;     /* Purple accent */
-  --success: #10b981;              /* Green success */
-  --warning: #f59e0b;              /* Orange warning */
-  --error: #ef4444;                /* Red error */
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
-  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
-  --gradient-chat: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  --text-secondary: #cccccc;       /* Light gray text */
+  --text-muted: #999999;           /* Muted gray text */
+  --border-color: #333333;         /* Gray border */
+  --accent-primary: #ffffff;       /* White accent */
+  --accent-secondary: #f0f0f0;     /* Light gray accent */
+  --success: #00ff00;              /* Green success */
+  --warning: #ffff00;              /* Yellow warning */
+  --error: #ff0000;                /* Red error */
+  --shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
+  --gradient-primary: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+  --gradient-chat: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
 
 /* Global Styles */
