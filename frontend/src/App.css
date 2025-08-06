@@ -546,8 +546,9 @@ body {
 }
 
 .input-suggestions button:hover {
-  background: var(--accent-primary);
-  color: white;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
   transform: translateY(-1px);
 }
 
