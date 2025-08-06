@@ -43,9 +43,11 @@ body {
 
 .app {
   height: 100vh;
-  overflow: hidden;
+  width: 100vw;
   background: var(--bg-primary);
-  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .app-layout {
