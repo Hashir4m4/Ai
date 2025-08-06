@@ -278,6 +278,36 @@ body {
   transform: scale(1.05);
 }
 
+.header-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.header-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.header-btn.primary {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.header-btn.primary:hover {
+  background: var(--text-secondary);
+  border-color: var(--text-secondary);
+}
+
 .content-area {
   flex: 1;
   overflow: hidden;
