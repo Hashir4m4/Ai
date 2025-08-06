@@ -1,38 +1,23 @@
-/* Global Variables */
+/* Emergent.sh Exact Color Palette */
 :root {
-  /* Light Theme */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-tertiary: #f1f5f9;
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --text-muted: #94a3b8;
-  --border-color: #e2e8f0;
-  --accent-primary: #3b82f6;
-  --accent-secondary: #8b5cf6;
-  --success: #10b981;
-  --warning: #f59e0b;
-  --error: #ef4444;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-
-.app.dark {
-  /* Dark Theme */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
-  --border-color: #334155;
-  --accent-primary: #3b82f6;
-  --accent-secondary: #8b5cf6;
-  --success: #10b981;
-  --warning: #f59e0b;
-  --error: #ef4444;
+  /* Emergent.sh Dark Theme Colors */
+  --bg-primary: #0a0e1a;           /* Deep dark blue background */
+  --bg-secondary: #141b2e;         /* Secondary dark blue */
+  --bg-tertiary: #1e2746;          /* Tertiary blue for cards */
+  --bg-chat: #0f1419;              /* Chat area background */
+  --text-primary: #ffffff;         /* Pure white text */
+  --text-secondary: #94a3b8;       /* Light blue-gray */
+  --text-muted: #64748b;           /* Muted blue-gray */
+  --border-color: #334155;         /* Blue-gray border */
+  --accent-primary: #3b82f6;       /* Bright blue accent */
+  --accent-secondary: #8b5cf6;     /* Purple accent */
+  --success: #10b981;              /* Green success */
+  --warning: #f59e0b;              /* Orange warning */
+  --error: #ef4444;                /* Red error */
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  --gradient-chat: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 /* Global Styles */
