@@ -975,6 +975,19 @@ body {
   color: var(--success) !important;
 }
 
+/* Hide Emergent watermark */
+[data-testid*="watermark"], 
+.watermark,
+[class*="watermark"],
+[id*="watermark"],
+*[style*="Made with Emergent"],
+*:contains("Made with Emergent") {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .app-layout {
