@@ -501,9 +501,9 @@ body {
 }
 
 .send-button {
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  border: none;
-  color: white;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border: 1px solid var(--text-primary);
   padding: 12px 20px;
   border-radius: 12px;
   cursor: pointer;
@@ -516,6 +516,8 @@ body {
 }
 
 .send-button:hover:not(:disabled) {
+  background: var(--text-secondary);
+  border-color: var(--text-secondary);
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
