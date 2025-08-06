@@ -390,8 +390,9 @@ body {
 }
 
 .message.user .message-text {
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  color: white;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
 }
 
 .message-text p {
